@@ -1,5 +1,3 @@
-import ProductModel from "@/Models/ProductSchema";
-// import Image from "next/image";
 import Link from "next/link";
 import RemoveBtn from "./RemoveButton";
 

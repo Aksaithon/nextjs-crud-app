@@ -29,7 +29,8 @@ const AddProduct = () => {
       })
 
       if(res.ok){
-        router.push('/products')
+        router.refresh();
+        router.push('/')
       }else{
          throw new Error('Failed to create a product')
       }
